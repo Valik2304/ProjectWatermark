@@ -16,9 +16,9 @@ class CreateTableImages extends Migration
         Schema::create('images', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->string('title');
+            $table->string('name');
             $table->string('images');
-            $table->string('watermark');
+
             $table->text('text');
 
             $table->timestamps();
