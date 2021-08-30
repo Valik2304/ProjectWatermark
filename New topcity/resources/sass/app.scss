@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+$fa-font-path:"../webfonts";
+//bootstrap
+
+@import "~bootstrap/scss/bootstrap";
+@import '~select2/dist/css/select2.css';
+@import 'slick-theme.css';
+@import 'slick.css';
+@import "components/button";
+@import "~@fancyapps/fancybox/dist/jquery.fancybox.css";
+// header
+@import "components/header";
+@import "components/basket";
+
+//slider
+
+@import "components/slider";
+
+//product-group
+@import "components/product-group";
+
+//industry-solution
+@import "components/industry-solution";
+
+//video
+@import "components/video";
+
+//connect
+@import "components/connect";
+
+//news
+@import "components/news";
+
+//footer
+@import "components/footer";
+
+//login
+@import "components/login";
+
+//register
+@import "components/register";
+
+//register
+@import "components/tree.css";
+
+
+@import "components/user-account";
+
+
+@import "components/order-history";
+
+@import "components/legal-person";
+
+@import "components/address";
+
+@import "components/product-card";
+
+@import "components/catalog";
+@import "components/newsList";
+
+@import "components/about-us";
+@import "components/news-card";
+@import "components/popup";
+@import "components/order-numb__modal";
+@import "components/specification-menu";
+@import "components/zip";
+@import "components/slider-partners";
+@import "components/media";
+@import "components/thank-you";
+@import "components/404";
+@import "components/preloader";
+
+
+//global
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+/*html {
+  scroll-behavior: smooth;
+}*/
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+button:focus {
+  outline: none !important;
+}
+//close button modal
+.login_form__close {
+  position: absolute;
+  right: -9px;
+  top: -9px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+
+  &:hover svg {
+    fill: #00a3d4;
+  }
+}
+
+.devloop__link {
+  &:hover {
+    color: #2980b9;
+  }
+}
+#map {
+  height: 100%;
+}
+
+//iconmoon font start
+/*@font-face {
+  font-family: 'icomoon';
+  src: url('/fonts/icomoon/icomoon.eot?njinun');
+  src: url('/fonts/icomoon/icomoon.eot?njinun#iefix') format('embedded-opentype'),
+  url('/fonts/icomoon/icomoon.ttf?njinun') format('truetype'),
+  url('/fonts/icomoon/icomoon.woff?njinun') format('woff'),
+  url('/fonts/icomoon/icomoon.svg?njinun#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  !* use !important to prevent issues with browser extensions that change fonts *!
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  !* Better Font Rendering =========== *!
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+//iconmoon font end
+
+@import "components/more-button";
+//@import "components/button";
+@import "components/details-link";
+@import "components/breadcrums";
+@import "components/modal_quick-order";
+
+input {
+  outline: none;
+}
+
+.active-pagination-link {
+  & span {
+    background-color: #00a3d4 !important;
+    border-color: #00a3d4 !important;
+  }
+
+}
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/v4-shims.scss';

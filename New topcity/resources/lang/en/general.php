@@ -1,0 +1,36 @@
+<?php
+
+return array (
+  'Top_City_Service' => 'Top City Service',
+  'about_us' => 'About Us',
+  'catalog' => 'Catalog',
+  'contact_us' => 'Contact Us',
+  'news' => 'News',
+  'Official_distributor_Siemens' => 'Official distributor Siemens',
+  'stock' => 'Stock',
+  'more' => 'More',
+  'all' => 'all',
+  'in_stock' => 'in stock',
+  'buy' => 'Buy',
+  'add_to_ZIP' => 'Add to ZIP',
+  'sort_by' => 'Sort By',
+  'under_the_order' => 'under the order',
+  'checkout' => 'Checkout',
+  'search_result' => 'search result',
+  'seo' => 
+  array (
+    'title' => 'Topsitiservice LLC',
+    'description' => 'description',
+  ),
+  'contacts' => 'Contacts',
+  'shipping_and_payment' => 'Shipping and payment',
+  'privacy_policy' => 'Privacy policy',
+  'search_not_found' => 'Product not found',
+  'industry_solutions' => 'Engineering services',
+  'special_proposals' => 'Special proposals',
+  'special_proposals_1' => 'Complex production automation',
+  'special_proposals_2' => 'Industrial Automation',
+  'special_proposals_3' => 'Production modernization',
+  'special_proposals_4' => 'Design of automatic control system',
+  'public_offer_agreement' => 'Public Offer Agreement',
+);

@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  & .details__link {
+    text-transform: uppercase;
+    color: #00a3d4;
+    margin-right: 10px;
+    font-weight: 500;
+    height: 25px;
+  }
+  & .details__link:hover {
+    text-decoration: none;
+    border-bottom: 1px dotted #00a3d4;
+  }
+}

@@ -1,0 +1,297 @@
+.slick-slide {
+  display: flex!important;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+.about-us {
+  .about_us_slider {
+    & .slick-arrow {
+      position: absolute;
+      top: 45%;
+      color: #00a3d4;
+      cursor: pointer;
+    }
+    & .icon-back {
+      left: -15px;
+    }
+    & .icon-next {
+      right: -15px;
+    }
+  }
+  & .about-company {
+    padding-bottom: 100px;
+  }
+
+  & .about-us__description--title {
+    color: #252525;
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  & .about-us__description {
+
+    & .about-us__description--img {
+      float: left;
+      margin: 7px 30px 7px 0;
+      width: 30%;
+    }
+
+    & .about-us__description--text {
+      color: #252525;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    & .about-us__description--img-mobile {
+      display: none
+    }
+  }
+
+   .our-team {
+    background-image: linear-gradient(to top, #00a3d4 0%, #3dd2ff 100%);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    & .our-team__title {
+      color: #ffffff;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 48px;
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    & .about-us__our-team {
+
+      & .our-team__card {
+        text-align: center;
+        border: none;
+
+        & .card-body {
+
+          & .card-title {
+            color: #252525;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 40px;
+          }
+
+          & .card-text {
+            color: #252525;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+          }
+
+          & .card-experience {
+            font-weight: 300;
+            min-height: 50px;
+            max-height: 50px;
+            overflow: hidden;
+          }
+
+          & .card-mail {
+            font-weight: 300;
+          }
+
+          & .card__social {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 16px;
+            border-top: 1px solid #d1d1d1;
+            padding-top: 20px;
+
+            & .card__social-link {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: transparent;
+              border: 1px solid #00a3d4;
+              border-radius: 50%;
+              padding: 5px;
+              width: 30px;
+              height: 30px;
+              margin-left: 15px;
+              transition: .2s;
+            }
+
+            & .card__social-link:hover {
+              background-color: #00a3d4;
+            }
+
+            & .card__social-link:hover svg {
+              fill: #ffffff;
+            }
+          }
+
+
+          & .card-btn {
+            font-size: 14px;
+            color: #434343;
+            line-height: 1.2;
+            text-decoration: none;
+            transition: .2s;
+          }
+
+          & .card-btn:hover {
+            color: #00a3d4;
+          }
+        }
+      }
+
+      & .our-team__btn {
+        border: 1px solid #434343;
+        padding: 12px 24px;
+        font-size: 14px;
+        border-radius: 4px;
+        line-height: 1.2;
+        color: #434343;
+        background-color: #ffffff;
+        margin: 0 auto;
+        margin-top: 40px;
+        transition: .3s;
+
+      }
+
+      & .our-team__btn:hover {
+        color: #fff;
+        background-color: #434343;
+        text-decoration: none;
+      }
+
+      .about-us__our-team-margin {
+        margin-bottom: 30px;
+        &:focus {
+          outline: none;
+        }
+      }
+
+    }
+    & .button_place {
+      margin: 20px auto 0;
+      & .js-members-link {
+        background: transparent;
+        border: 1px solid #ffffff;
+        & .circle {
+          background-color: #ffffff;
+        }
+        & .button-text {
+          color: #ffffff;
+        }
+      }
+      &:hover {
+        & .button-text {
+          color: #000000;
+        }
+      }
+    }
+
+  }
+
+  & .about-us__jobs {
+    div {
+      text-align: center;
+    }
+    & .about-us__jobs--title {
+      color: #252525;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 48px;
+      margin: 0 auto;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    & .no_vacancies {
+      text-align: center;
+    }
+
+    & .jobs__card {
+      border: 1px solid #ebebeb;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+
+      & .card-body {
+        background-color: #ffffff;
+        padding: 0.8rem;
+
+        & .card-title,
+        & .card-buttons {
+          display: flex;
+          justify-content: space-between;
+          margin-left: auto;
+
+          & h5 {
+            color: #252525;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 30px;
+          }
+
+          & h6 {
+            text-align: right;
+            color: #00a3d4;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 30px;
+            min-width: 25%;
+          }
+        }
+
+        & .card-address {
+          display: flex;
+        }
+
+        & .card-address p,
+        & .experience__item p {
+          color: #252525;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 24px;
+          margin-left: 10px;
+          margin-bottom: 0;
+        }
+
+        & .card-experience {
+          margin-bottom: 20px;
+
+          & .experience__item {
+            display: flex;
+            align-items: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+        }
+
+        & .card-text {
+          color: #252525;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 24px;
+
+          min-height: 115px;
+          max-height: 115px;
+          overflow: hidden;
+        }
+
+        & .card-buttons {
+          & .learn-more {
+            width: 230px;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  & .about-us__jobs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+}
+
+

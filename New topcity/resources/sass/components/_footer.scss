@@ -1,0 +1,156 @@
+.footer {
+  background-color: #252525;
+  padding-top: 60px;
+
+  .company-group__title {
+    text-align: end;
+  }
+
+  .company-group__img {
+    width: 10vw;
+    margin-bottom: 20px;
+  }
+
+  .footer__contacts--lviv {
+    .contacts__wrapper-company-group {
+      margin-top: 50px;
+      margin-bottom: 10px;
+      a {
+        svg {
+          width: 8.5vw;
+        }
+      }
+
+    }
+  }
+
+
+  & .footer__map {
+    .googleMap-tablet {
+      display: none;
+    }
+
+
+  }
+
+  & .footer__link a,
+  & .footer__contacts a,
+  & .footer__contacts--lviv a {
+    text-decoration: none;
+    transition: .2s;
+  }
+
+  & .footer__link a:hover,
+  & .footer__contacts a:hover,
+  & .footer__contacts--lviv a:hover {
+    color: #00a3d4;
+  }
+
+  & .footer__link {
+    & .footer__social {
+      & a:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+
+    & .footer__social a svg {
+      transition: .2s;
+    }
+
+    & .footer__social a svg:hover {
+      fill: #ffffff;
+    }
+  }
+
+  & .map__title,
+  & .link__title,
+  & .social__title,
+  & .contacts__title {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 26px;
+  }
+
+  & .list__item,
+  & .contacts__text,
+  & .footer__text {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+  }
+
+  & .contacts__text,
+  & .footer__text {
+    margin-bottom: 5px;
+  }
+
+  & .contacts {
+    & .contacts__wrapper {
+      display: flex;
+      align-items: flex-start;
+
+      & .contacts__number,
+      & .contacts__mail,
+      & .contacts__address {
+        margin-left: 15px;
+      }
+
+      & .contacts__number a {
+        display: block;
+        padding-right: 68px;
+      }
+    }
+  }
+
+  & .phone,
+  & .main__office,
+  & .support {
+    margin-top: 35px;
+  }
+
+  & .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    & .company {
+      color: #999999;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+  }
+
+  & .produced {
+    display: flex;
+    justify-content: flex-end;
+
+    & p {
+      color: #999999;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      margin-bottom: 0;
+    }
+
+    & a {
+      color: #999999;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      transition: .3s;
+      margin-left: 5px;
+
+      &:hover {
+        color: #2980b9;
+      }
+    }
+  }
+  .footer-cards {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    img:not(:last-of-type) {
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.modal-backdrop.show:not(.fade:not(.show)) {
+    opacity: .3 !important;
+}
+
+.messageModal.fade {
+    transition: opacity .22s linear!important;
+}
+
+#basicModal .modal-content {
+    display: block !important;
+}
+
+.mainModal .modal-header {
+    display: inherit !important;
+    text-align: center;
+    border-bottom: none !important;
+    padding-top: 30px !important;
+}
+
+.messageModal .modal-header {
+    text-align: center;
+    padding: 3rem 3rem 0;
+}
+
+.messageModal .modal-header #myModalLabel {
+    font-size: 27px;
+}
+
+.modal-header #myModalLabel {
+    line-height: 28px !important;
+}
+
+.modal-body input {
+    width: 400px;
+    /*width: 30vw;*/
+    border-radius: 298px;
+    border: 1px solid #cbced0;
+    height: 60px;
+    padding-left: 15px;
+}
+
+.mainModal .modal-body {
+    text-align: center;
+    padding: 15px 40px 5px !important;
+}
+
+.messageModal .modal-body {
+    text-align: center;
+    padding: 0.5rem 1rem 2.3rem !important;
+}
+
+form .modal-footer {
+    justify-content: center;
+    border-top: none !important;
+    padding-top: 5px !important;
+    padding-bottom: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+.modal-footer .button_place {
+    text-align: center;
+    /*width: 200px;*/
+    width: auto;
+    border-radius: 150px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.modal-footer .btn_transparent {
+    /*width: 200px;*/
+    background: transparent !important;
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        max-width: 500px !important;
+        width: 80vw !important;
+        /*max-width: 80vw!important;*/
+        margin: 1.75rem auto;
+    }
+
+    .messageModal .modal-header {
+        text-align: center;
+        padding: 3rem 2rem 0;
+    }
+
+    .modal-body {
+        padding: 15px 10px 5px !important;
+    }
+
+    .modal-dialog input {
+        max-width: 300px !important;
+    }
+
+    form .modal-footer {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 414px) {
+    .modal-header .modal-title {
+        font-size: 22px !important;
+    }
+
+    .modal-dialog input {
+        /*max-width: 300px !important;*/
+        max-width: 70vw !important;
+    }
+}

@@ -1,0 +1,167 @@
+.legal-person {
+    padding-bottom: 100px;
+    & .row_alert_success{
+        width: 100%;
+    }
+    & .alert-success{
+        width: 100%;
+    }
+    & .legal-person__title{
+        font-size: 36px;
+        color: rgb(37, 37, 37);
+        line-height: 1.333;
+        margin-bottom: 40px;
+    }
+    & .legal-person__info {
+        border-bottom: 1px solid #e2e5e9;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        padding-bottom: 24px;
+        & .info__company-name {
+            & .company-name__text {
+                color: #252525;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 45px;
+            }
+        }
+        & .info__contact-person {
+            & a {
+                color: #2a2826;
+                transition: .2s;
+                text-decoration: none;
+                &:hover {
+                    color: #00a3d4;
+                }
+            }
+
+            & .contact-person__text {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 22px;
+
+            }
+
+        }
+        & .info__times-circle {
+            text-align: end;
+            & .times-circle__btn {
+                background-color: #fff;
+                border: none;
+
+                & svg:hover {
+                    fill: #00a3d4;
+                }
+            }
+        }
+    }
+    & .legal-person__form {
+        & .form__company-name {
+            & .company-name__title {
+                font-size: 14px;
+                color: rgb(37, 37, 37);
+                line-height: 3.214;
+            }
+        }
+        & .form__input-info {
+            & label {
+                width: 100%;
+                margin-bottom: 15px;
+                position: relative;
+                & .success_input{
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 100px;
+                    padding-left: 20px;
+                    padding-right: 65px;
+                    border: 1px solid #ebebeb;
+                }
+                & .error_span{
+                    color:$red;
+                    margin: 5px 0 0 20px;
+                    display: block;
+                    font-size: 14px;
+                }
+                & .error_display{
+                    display: none;
+                    color:$red;
+                    margin: 5px 0 0 20px;
+                    font-size: 14px;
+                }
+                & .error_input{
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 100px;
+                    padding-left: 20px;
+                    padding-right: 65px;
+                    border: 1px solid $red;
+                }
+                &  select {
+                  width: 100%;
+                  height: 50px;
+                  border-radius: 100px;
+                  padding-left: 20px;
+                  padding-right: 65px;
+                  border: 1px solid #ebebeb;
+                }
+                & .lock__icon {
+                    width: 20px;
+                    position: absolute;
+                    top: 10px;
+                    right: 25px;
+                }
+            }
+        }
+
+        & .form__contact-person {
+            & .contact-person__title {
+                font-size: 14px;
+                color: rgb(37, 37, 37);
+                line-height: 3.214;
+            }
+        }
+    }
+    & .legal-person__description {
+        margin-top: 40px;
+        & .description__icon {
+            text-align: end;
+            padding-right: 0;
+            & .icon__info {
+                width: 25px;
+            }
+        }
+        & .description__text {
+            & .text__text {
+                font-size: 14px;
+                color: rgb(37, 37, 37);
+                line-height: 1.714;
+            }
+        }
+    }
+    & .button_place {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        & .learn-more {
+            background-color: transparent;
+            width: 100%;
+            background-color: #fff;
+        }
+/*        & .legal-person__more {
+            width: 200px;
+            background-color: #ffffff;
+            & .more__icon {
+                & svg {
+                    width: 23px;
+                  }
+            }
+            &:hover {
+                background-color: #00a3d4;
+            }
+        }*/
+    }
+}
+.alert-success{
+    width: 100%;
+}

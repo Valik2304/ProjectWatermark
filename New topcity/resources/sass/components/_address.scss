@@ -1,0 +1,121 @@
+.delivery-address {
+    padding-bottom: 100px;
+    & .delivery-address__title{
+        font-size: 36px;
+        color: rgb(37, 37, 37);
+        line-height: 1.333;
+        margin-bottom: 30px;
+    }
+
+    & .delivery-address__info {
+
+
+        & .info__address {
+
+            & .address__text {
+                font-size: 14px;
+                color: rgb(37, 37, 37);
+                margin-top: 16px;
+            }
+        }
+
+        & .info__item {
+            border-bottom: 1px solid #e2e5e9;
+
+            & .item__contact-person {
+                padding-top: 30px;
+                padding-bottom: 37px;
+                & a {
+                    font-size: 14px;
+                    color: rgb(42, 40, 38);
+                    line-height: 1.571;
+                    transition: 0.2s;
+                    text-decoration: none;
+                    &:hover {
+                        color: #00a3d4;
+                    }
+                  & p {
+                      padding-top: 5px;
+                      margin-bottom: 0;
+                  }
+                }
+            }
+            & .item__close {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+            }
+            & .info__times-circle {
+                text-align: end;
+    
+                & .times-circle__btn {
+                    background-color: #fff;
+                    border: none;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+
+    & .delivery-address__form {
+        margin-top: 30px;
+
+        & .form__input-info {
+
+            & label {
+                width: 100%;
+                margin-bottom: 15px;
+            & .success_input{
+                width: 100%;
+                height: 50px;
+                border-radius: 100px;
+                padding-left: 20px;
+                border: 1px solid #ebebeb;
+            }
+            & .error_input{
+                width: 100%;
+                height: 50px;
+                border-radius: 100px;
+                padding-left: 20px;
+                border: 1px solid $red;
+            }
+            & .error_span{
+                color:$red;
+                margin: 5px 0 0 20px;
+                display: block;
+                font-size: 14px;
+            }
+            & .error_display{
+                display: none;
+                color:$red;
+                margin: 5px 0 0 20px;
+                font-size: 14px;
+            }
+                & select {
+                  width: 100%;
+                  height: 50px;
+                  border-radius: 100px;
+                  padding-left: 20px;
+                  border: 1px solid #ebebeb;
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    & .delivery-address__button {
+        margin-top: 30px;
+        & .learn-more {
+            margin-left: 18px;
+        }
+    }
+    & .info__times-circle {
+        & svg:hover {
+            fill: #00a3d4;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<?php
+
+return array (
+  'Top_City_Service' => 'Топ Сити Сервис',
+  'about_us' => 'О нас',
+  'catalog' => 'Каталог',
+  'contact_us' => 'Свяжитесь с нами',
+  'news' => 'Новости',
+  'Official_distributor_Siemens' => 'Официальный дистрибьютор Siemens',
+  'stock' => 'Склад',
+  'more' => 'Больше',
+  'all' => 'все',
+  'in_stock' => 'в наличии',
+  'buy' => 'Купить',
+  'add_to_ZIP' => 'Добавить в ЗИПы',
+  'sort_by' => 'Сортировка',
+  'under_the_order' => 'под заказ',
+  'checkout' => 'Оформление заказа',
+  'search_result' => 'Результаты поиска',
+  'seo' => 
+  array (
+    'title' => 'ООО "Топситисервис"',
+    'description' => 'Описание',
+  ),
+  'contacts' => 'Контакты',
+  'shipping_and_payment' => 'Доставка и оплата',
+  'privacy_policy' => 'Политика конфиденциальности',
+  'search_not_found' => 'Товар не найден',
+  'industry_solutions' => 'Инженерные услуги',
+  'special_proposals' => 'Cпециальные предложения',
+  'special_proposals_1' => 'Комплексная автоматизация производства',
+  'special_proposals_2' => 'Промышленная автоматизация',
+  'special_proposals_3' => 'Модернизация производства',
+  'special_proposals_4' => 'Проектирование АСУ ТП',
+  'public_offer_agreement' => 'Договор публичной оферты',
+);

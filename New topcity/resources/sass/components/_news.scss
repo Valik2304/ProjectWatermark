@@ -1,0 +1,71 @@
+.news {
+    background-color: #fcfeff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to top, #f4faff 0%, #ffffff 100%);
+    & .news__title {
+        text-align: center;
+        font-size: 36px;
+        color: rgb(37, 37, 37);
+        line-height: 36px;
+        margin-bottom: 40px;
+    }
+    & .news__item {
+        & .wrapper {
+            border: 1px solid rgb(235, 235, 235);
+            border-radius: 4px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+            & .item__image {
+                width: 100%;
+                height: auto;
+            }
+            & .item__info {
+                padding-left: 15px;
+                padding-right: 15px;
+                & .info__wrap {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 15px;
+                    margin-bottom: 20px;
+                    & .info__category,
+                    & .info__date  {
+                        color: #252525;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 24px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .date__image {
+                        padding-right: 10px;
+                    }
+                }
+                & .info__title {
+                    color: #252525;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 36px;
+                    min-height: 100px;
+                    max-height: 100px;
+                    overflow: hidden;
+                }
+                & .info__text {
+                    color: #252525;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    min-height: 95px;
+                    max-height: 95px;
+                    overflow: hidden;
+                }
+                & .info__details {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    & .button_place {
+        margin: 50px auto 0;
+    }
+}

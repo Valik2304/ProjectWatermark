@@ -1,0 +1,13 @@
+.thank {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  & .thank__headline {
+    margin-bottom: 45px;
+  }
+  & p {
+     margin-bottom: 30px;
+   }
+}

@@ -1,0 +1,31 @@
+.order-numb__modal {
+
+  & .modal-header {
+    //background-color: #f5f5f5;
+    border-bottom: 1px solid transparent;
+  }
+
+  & .modal-body {
+    text-transform: uppercase;
+    font-size: 20px;
+
+    & .modal-content {
+
+      padding: 10px;
+      background-color: #f5f5f5;
+
+      & input, select {
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgb(235, 235, 235);
+        border-radius: 2px;
+      }
+
+    }
+  }
+
+  & .modal-footer {
+    border-top: 1px solid transparent;
+    //background-color: #f5f5f5;
+  }
+}

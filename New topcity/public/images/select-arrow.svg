@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="5" viewBox="0 0 11 5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a3d4;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M1514,5075l5.5,5,5.5-5h-11Z" transform="translate(-1514 -5075)"/>
+</svg>

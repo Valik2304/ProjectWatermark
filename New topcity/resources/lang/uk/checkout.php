@@ -1,0 +1,38 @@
+<?php
+
+return array (
+  'contacts' => 'Контактні данні',
+  'i_am_registered' => 'Я зареєстрований',
+  'name_and_surname' => 'Ім\'я та Прізвище',
+  'phone' => 'Телефон',
+  'email' => 'Електронна пошта',
+  'choose_delivery_and_payments' => 'Вибір способів доставки і оплати',
+  'delivery' => 'Доставка',
+  'select_the_nova_poshta_branch' => 'Виберіть відділення Нової пошти',
+  'select_a_branch' => 'Виберіть відділення',
+  'select_a_city' => 'Виберіть місто',
+  'targeted_address' => 'Адресна доставка',
+  'choose_your_address' => 'Виберіть вашу адресу',
+  'add_your_address' => 'Додати свою адресу',
+  'city' => 'Місто',
+  'street' => 'Вулиця',
+  'payment' => 'Оплата',
+  'buy' => 'Купити',
+  'product' => 
+  array (
+    'image' => 'Фото',
+    'name' => 'Назва Товару',
+    'price' => 'Ціна',
+    'total' => 'Всього',
+    'piece' => 'шт.',
+    'sum' => 'Сума',
+    'UAH' => 'грн.',
+    'count' => 'Кількість',
+  ),
+  'edit' => 'Редагувати',
+  'on_request' => 'по запиту',
+  'legal_person' => 'Юридична особа',
+  'select_legal_person' => 'Виберіть Юр.особу',
+  'create_legal_person' => 'Створити Юр. особу',
+  'pickup' => 'Самовивіз',
+);

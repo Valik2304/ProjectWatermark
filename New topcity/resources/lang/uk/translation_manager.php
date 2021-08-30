@@ -1,0 +1,33 @@
+<?php
+
+return array (
+  'name' => 'Менеджер перекладів',
+  'group_select_help_text' => 'Виберіть групу для відображення групових перекладів.',
+  'group_translate_add_to_file_done' => 'Виконано публікацію перекладів для групи',
+  'add_new_group_help_text' => 'Введіть нове ім’я групи та починайте редагувати переклади в цій групі',
+  'add_new_group_button' => 'Додати нову групу',
+  'add_new_key_to_group_help_text' => 'Додати нові ключі до цієї групи',
+  'add_keys' => 'Додати ключі',
+  'total' => 'Всього',
+  'changed' => 'Змінено файлів',
+  'translation_manager' => 'Менеджер перекладів',
+  'user_cabinet' => 'Кабінет користувача',
+  'modal' => 'Модальні вікна',
+  'placeholders' => 'Placeholders',
+  '_json' => 'JSON',
+  'general' => 'Загальні',
+  'footer' => 'Footer',
+  'header' => 'Header',
+  'about_us' => 'Про нас',
+  'choose_group' => 'Виберіть группу',
+  'breadcrumbs' => 'Хлібні крошки',
+  'main_page' => 'Головна сторінка',
+  'checkout' => 'Оформлення замовлення',
+  'cart' => 'Кошик',
+  'thank-you' => 'Thank-you page',
+  'catalog' => 'Каталог',
+  'product_page' => 'Сторінка товару',
+  'specification_menu' => 'Меню специфікації',
+  'news' => 'Новини',
+  '404' => '404'
+);

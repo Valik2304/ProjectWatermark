@@ -1,0 +1,175 @@
+.connect {
+  background-image: url("/img/background_cal_back.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding-top: 85px;
+  @media screen and (max-width: 575px) {
+    background-image: linear-gradient(to top, #00a3d4 0%, #3dd2ff 100%);
+    background-position: inherit;
+    background-repeat: inherit;
+    background-size: inherit;
+  }
+  & .image__block {
+    display: flex;
+    align-items: flex-end;
+    & .left__image {
+      width: 118%;
+      position: relative;
+      left: -20%;
+    }
+  }
+  & .connect__block {
+
+    & .block__headline {
+      color: #ffffff;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 48px;
+      padding: 0 25px;
+    }
+    & .block__text {
+      color: #ffffff;
+      text-align: center;
+      padding: 0 80px;
+      margin: 24px 0 56px 0;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    & .block__form {
+      & label {
+        width: 100%;
+        margin-bottom: 15px;
+        & .con_input_success{
+          width: 100%;
+          height: 50px;
+          border-radius: 4px;
+          padding-left: 20px;
+          border: 0;
+          &:focus {
+            outline: none;
+          }
+        }
+        & .con_input_error{
+          border:1px solid $red;
+        }
+       
+        & select {
+          width: 100%;
+          height: 50px;
+          border-radius: 4px;
+          padding-left: 20px;
+          border: 0;
+          &:focus {
+            outline: none;
+          }
+        }
+        & textarea {
+          width: 100%;
+          height: 115px;
+          resize: none;
+          border-radius: 4px;
+          padding-top: 20px;
+          padding-left: 20px;
+          border: 0;
+          &:focus {
+            outline: none;
+          }
+        }
+        & select {
+          -webkit-appearance: none;
+          background-image: url("/img/svg/select-arrow.svg");
+          background-repeat: no-repeat;
+          background-position: center right 20px;
+        }
+      }
+    }
+    & .button_place {
+      margin: 15px auto 100px;
+      & .learn_more_btn{
+        width: 200px;
+        background: transparent;
+        padding: 0px;
+        margin: 0px;
+          
+      }
+      & .learn-more {
+        border: 1px solid white;
+        .circle {
+          background: white;
+          margin: -0.5px;
+          .icon {
+            background: white;
+            &.arrow {
+              &::before {
+                border-top: 0.125rem solid #000000;
+                border-right: 0.125rem solid #000000;
+              }
+            }
+          }
+        }
+        .button-text {
+          color: white;
+        }
+        &:hover {
+          .circle {
+            .icon {
+              &.arrow {
+                background: white;
+              }
+            }
+          }
+          .button-text {
+            color: black;
+          }
+        }
+      }
+    }
+    & .modal-dialog-centered {
+      justify-content: center;
+      & .popup__send-message {
+        max-width: 380px;
+        padding: 10px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        & .send-message__title {
+          color: #333333;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        & .send-message__text {
+          color: #2a2826;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 26px;
+          margin-bottom: 0;
+        }
+        & .send-message_form__close {
+          position: absolute;
+          right: -9px;
+          top: -9px;
+          width: 40px;
+          height: 40px;
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+          border-radius: 50%;
+          background-color: #ffffff;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: .2s;
+
+          &:hover svg {
+            fill: #00a3d4;
+          }
+        }
+      }
+    }
+  }
+}

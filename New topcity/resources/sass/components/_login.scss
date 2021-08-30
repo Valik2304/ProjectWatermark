@@ -1,0 +1,163 @@
+.login {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+& .card {
+
+  & .card-header {
+    text-align: center;
+  }
+
+  & .card-body {
+
+    & .form-group {
+
+        & .form-control, select {
+          width: 100%;
+          height: 50px;
+          border-radius: 100px;
+          //padding-left: 20px;
+          border: 1px solid #ebebeb;
+        }
+
+        & .form-control:focus {
+          color: #495057;
+          background-color: #fff;
+          border-color: #ebebeb;
+          outline: none;
+          box-shadow: none;
+        }
+   
+
+      & .login__button {
+
+        & .login__save {
+          margin-top: 14px;
+          width: 200px;
+          background-color: #ffffff;
+          margin-left: 0;
+
+          & .more__icon {
+
+            & svg {
+              width: 23px;
+            }
+          }
+
+          &:hover {
+            background-color: #00a3d4;
+          }
+        }
+      }
+     
+
+
+
+      & .register__button,
+      & .forgot-pass{
+        margin-top: 30px;
+        text-align: center;
+        & .register__link,
+        & .forgot-pass__link {
+          color: #00a3d4;
+          text-decoration: none;
+          transition: .2s;
+        }
+
+
+
+        & .forgot-pass__link {
+          margin-left: 5px;
+        }
+      }
+    }
+    & .social__button {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+      & .button {
+        font-size: 14px;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid transparent;
+        border-radius: 25px;
+        transition: .2s;
+      }
+
+      & .button:focus,
+      & .button:active:focus {
+        outline: none;
+      }
+
+      & .button:hover,
+      & .button:focus {
+        color: #333;
+        text-decoration: none;
+        outline: none;
+      }
+
+      & .button:active {
+        background-image: none;
+        outline: none;
+      }
+
+      & .btn__google,
+      & .btn__facebook {
+        color: #333;
+        background-color: #fff;
+        border-color: #00a3d4;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+      }
+
+      & .btn__google:focus,
+      & .btn__facebook:focus{
+        color: #ffffff;
+        background-color: #00a3d4;
+        border-color: #00a3d4;
+      }
+
+      & .btn__google:hover,
+      & .btn__facebook:hover{
+        color: #ffffff;
+        border-color: #00a3d4;
+        & svg {
+          fill: #00a3d4;
+        }
+      }
+
+      & .btn__google:active,
+      & .btn__facebook:active {
+        color: #ffffff;
+        background-color: #00a3d4;
+        border-color: #00a3d4;
+      }
+    }
+    & .register__link {
+      color: #00a3d4;
+      border: 1px dotted transparent;
+      &:hover {
+        color: #00a3d4;
+        border: 1px dotted #00a3d4;
+      }
+    }
+    & .register__link:hover,
+    & .forgot-pass__link:hover {
+      color: #333;
+      text-decoration: none;
+    }
+  }
+}
+}
+
+.register__button  {
+  & a, a:hover {
+    color: #00a3d4 !important;
+  }
+}

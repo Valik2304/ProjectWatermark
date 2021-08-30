@@ -1,0 +1,51 @@
+.modal-dialog-centered {
+  justify-content: center;
+  & .popup__send-message {
+    max-width: 380px;
+    padding: 10px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    & .send-message__title {
+      color: #333333;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    & .send-message__text {
+      color: #2a2826;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 26px;
+      margin-bottom: 0;
+    }
+    & .send-message_form__close {
+      position: absolute;
+      right: -9px;
+      top: -9px;
+      width: 40px;
+      height: 40px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      border-radius: 50%;
+      background-color: #ffffff;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: .2s;
+
+      &:hover svg {
+        fill: #00a3d4;
+      }
+    }
+  }
+  & a {
+    //border-bottom: 1px solid transparent;
+    //background-color: transparent;
+    color: #00a3d4;
+    max-width: 200px;
+    margin: 5px auto 0;
+  }
+}

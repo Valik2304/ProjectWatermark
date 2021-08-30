@@ -1,0 +1,126 @@
+.order-history {
+  padding-bottom: 100px;
+  & .order-history__title {
+    font-size: 36px;
+    color: rgb(37, 37, 37);
+    line-height: 1.333;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  & .order_accordion {
+    & .card {
+      border: 1px solid transparent;
+      & .card-header {
+        border-bottom: 1px solid transparent;
+        margin-bottom: 0;
+      }
+    }
+
+    & .accordion__heading {
+      & .heading__caption {
+        background-color: transparent;
+        text-align: center;
+        & .caption__title {
+          font-size: 14px;
+          color: rgb(143, 143, 143);
+          text-transform: uppercase;
+          line-height: 1.714;
+        }
+      }
+    }
+
+    & .accordion__items {
+      border-top: 1px solid #e2e5e9;
+      border-bottom: 1px solid #e2e5e9;
+      border-radius: 0;
+      & .items__head {
+        background-color: transparent;
+        text-align: center;
+        & .row {
+          align-items: center;
+        }
+        & .head__title {
+          font-size: 13px;
+          color: rgb(37, 37, 37);
+          line-height: 1.571;
+        }
+        & .title {
+          margin-bottom: 0;
+        }
+        .accepted__btn {
+          color: #009615;
+        }
+        .on-the-road__btn {
+          color: #d78c17;
+        }
+        .canceled__btn {
+          color: #ff0000;
+        }
+        & .head_btn {
+          transition: all .4s linear;
+
+          & .button-item__img {
+            transform: rotate(180deg);
+            fill: #00a3d4;
+          }
+          &:focus {
+            outline: none;
+          }
+          &.collapsed {
+            & .button-item__img {
+              transform: rotate(0deg);
+              fill: #8f8f8f;
+            }
+          }
+        }
+
+        & .head_btn.transform {
+          transform: rotate(180deg);
+        }
+        & .items__head__mobile {
+          display: none;
+        }
+      }
+
+      & .items__body {
+        margin-bottom: 20px;
+        background-color: #ecf7ff;
+
+        & .total__wrapper {
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+
+        & .body__title {
+          font-size: 14px;
+          line-height: 1.714;
+        }
+
+        & .title__bold {
+          font-weight: bold;
+        }
+
+        & .title__light {
+          color: rgb(143, 143, 143);
+        }
+
+        & .title__price {
+          font-size: 24px;
+          color: rgb(0, 163, 212);
+          line-height: 1;
+        }
+        & .items__body__mobile {
+          display: none;
+        }
+      }
+    }
+
+    & .border-active {
+      border-top: 1px solid #00a3d4 !important;
+      border-bottom: 1px solid #00a3d4 !important;
+    }
+  }
+}
+
+
+

@@ -1,0 +1,160 @@
+.user-profile {
+  & .button__user-profile {
+    display: none;
+  }
+
+  & .error_span {
+    color: $red;
+    margin: 5px 0 0 20px;
+    display: block;
+    font-size: 14px;
+  }
+  & .user-profile__account {
+    & .account__title {
+      font-size: 24px;
+      color: rgb(37, 37, 37);
+      text-transform: uppercase;
+      line-height: 0.917;
+      border-bottom: 1px solid rgb(226, 229, 233);
+      padding-top: 12px;
+      padding-bottom: 20px;
+    }
+    & .account__navigation {
+      & .navigation__list {
+        list-style-type: none;
+        & .navigation__item {
+          margin-top: 20px;
+        }
+        & .navigation__item a {
+          font-size: 14px;
+          color: rgb(37, 37, 37);
+          line-height: 1.571;
+        }
+        & .item--active a {
+          color: #00a3d4;
+        }
+        & .navigation__item a:hover {
+          color: rgb(0, 163, 212);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  & .profile {
+    padding-bottom: 100px;
+
+    .button_place {
+      margin-top: 25px;
+      .learn-more_btn {
+        width: 225px;
+      }
+    }
+
+    .password__wrap {
+      display: none;
+    }
+
+    .password__wrap.active {
+      display: block;
+    }
+
+    & .profile__title {
+      font-size: 36px;
+      color: rgb(37, 37, 37);
+      margin-bottom: 0;
+      padding-bottom: 20px;
+    }
+
+    & .profile-form__phone,
+    & .profile-form__password,
+    & .profile-form__newPassword {
+      margin-top: 15px;
+    }
+
+    & .name__star {
+      color: #3cb9de;
+    }
+
+
+    & .error_display {
+      display: none;
+      color: $red;
+      margin: 5px 0 0 20px;
+      font-size: 14px;
+    }
+
+    & label {
+      width: 100%;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+
+    & .success_input {
+      width: 100%;
+      height: 50px;
+      padding-left: 20px;
+      border: 1px solid rgb(235, 235, 235);
+      border-radius: 25px;
+    }
+
+    & .error_input {
+      width: 100%;
+      height: 50px;
+      padding-left: 20px;
+      border-radius: 25px;
+      border: 1px solid $red;
+    }
+
+    & select {
+      width: 100%;
+      height: 50px;
+      padding-left: 20px;
+      border: 1px solid rgb(235, 235, 235);
+      border-radius: 25px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  & .user-profile__button {
+    margin-top: 40px;
+    text-align: center;
+
+        & .user-profile__save:hover {
+            text-decoration: none;
+        }
+        & .learn-more_btn{
+            width: 200px;
+            background: transparent;
+            padding: 0px;
+            margin: 0px;
+          }
+
+    & .button_place {
+      margin: 0 auto;
+    }
+    }
+
+  .zip {
+    .button_place {
+      margin-top: 20px;
+    }
+  }
+}
+
+.alert-success {
+    margin-left: 15px;
+    margin-right: 15px;
+    & .close_alert_success{
+        float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    }
+  margin-left: 15px;
+  margin-right: 15px;
+}
